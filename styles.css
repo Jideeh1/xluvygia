@@ -1,0 +1,131 @@
+* {
+    transition: all .3s ease-in-out;
+    font-family: "Poppins";
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-image: linear-gradient(rgba(255,114,183,255), rgba(255,177,215,255));
+
+    background-repeat: no-repeat;
+    object-fit: contain;
+    
+    height: 100vh;
+}
+
+section {
+    background-color: rgba(254,254,255,255);
+    transform: translate(-50%, -50%);
+    
+    border-radius: 30px;
+    padding: 2cqw 2cqw;
+    height: 85vh;
+    width: 50vw;
+    left: 50%;
+    top: 50%;
+
+    position: absolute;
+    
+    nav {        
+        justify-content: space-between;
+        display: flex;
+
+        h1 {
+            cursor: default;
+        }
+
+        .nav-buttons {
+            display: flex;
+            width: 9cqw;
+            gap: .5cqw;            
+        }
+
+        .username {
+            height: max-content;
+            margin: auto 0;
+        }
+    }
+}
+
+.text-accent {
+    background-image: linear-gradient(170deg, rgba(255,114,183,255), rgba(255,177,215,255));
+    
+    -webkit-background-clip: text;
+    text-transform: lowercase;
+    width: max-content;
+    color: transparent;
+
+    font-family: "header";
+
+    font-size: 4cqh;
+}
+
+.button-item {
+    background-color: #fc7bbd;
+    border-radius: 100%;
+    padding: 3%;
+    width: 1.2cqw;
+    
+    cursor: pointer;
+    margin: auto 0;
+    display: flex;
+    height: auto;
+}
+
+.button-item:hover {
+    background-color: #ed56a4;
+    transform: scale(1.1);
+}
+
+.supporting-text {
+    text-transform: uppercase;
+    
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: .8cqw;
+    color: #fc7bbd;
+}
+
+article {
+    background-image: linear-gradient(90deg, #fe71b2, #ffb7d9);
+    
+    justify-content: space-between;
+    display: flex;
+
+    border-radius: 15px;
+    padding: 5% 10%;
+    height: 30vh;
+    width: 80%;
+
+    .text-place {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+
+        max-width: 15cqw;
+        gap: 1cqh;
+        
+        h1 {
+            font-size: 2.5cqw;
+            text-transform: none;
+            color: #fefeff;
+        }
+        p {
+            color: #fefeff;
+            font-size: .7cqw;
+        }
+    }
+}
+
+.heart {
+    position: absolute;
+    right: 300px;
+    height: 8cqh;
+    opacity: .4;
+    top: 70px;
+}

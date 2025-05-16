@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "header";
+    src: url(assets/Bogart-Bold-Italic-trial.ttf);
+}
+
+@font-face {
+    font-family: "sub";
+    src: url(assets/Bogart-Regular-trial.ttf);
+}
